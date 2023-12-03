@@ -3,9 +3,19 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav, Button } from 'react-bootstrap';
 import { useAuth } from '../AuthContext/AuthContext'; // Adjust the import path as needed
 import './Nav.css';
+import { useNavigate } from 'react-router-dom';
+
+
 function Navigation() {
   const { user, logout } = useAuth();
   const [expanded, setExpanded] = useState(false);
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    logout();        // Your logout function that clears the user's session
+    setExpanded(false);  // Any other state or UI cleanup
+    navigate('/');  // Redirects to the homepage
+  };
 
   return (
     <Navbar bg="primary" variant="dark" expand="lg" expanded={expanded}>
@@ -24,7 +34,7 @@ function Navigation() {
               <Nav.Link as={Link} to="/dashboard/view-bookings" onClick={() => setExpanded(false)}>View Bookings</Nav.Link>
             </Nav>
             <Nav className="ms-auto">
-              <Button variant="danger" onClick={() => { logout(); setExpanded(false); }} className="logout-button">Logout</Button>
+             <Button variant="danger" onClick={handleLogout} className="logout-button">Logout</Button>
             </Nav>
           </>
         ) : (

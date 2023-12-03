@@ -39,7 +39,7 @@ function Login() {
 
       login(result.user, result.accessToken); 
   
-      window.location.href = '/dashboard'; 
+      window.location.href = '/user'; 
     } catch (error) {
       console.error(error);
     }
