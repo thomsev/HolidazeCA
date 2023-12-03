@@ -1,6 +1,6 @@
-# Lorem Museum
+# Holidaze
 
-!![holidaze](https://github.com/thomsev/HolidazeCA/assets/100193213/ad28dff7-0610-4b8c-9b39-af7d65ee03f4)
+![holidaze](https://github.com/thomsev/HolidazeCA/assets/100193213/ad28dff7-0610-4b8c-9b39-af7d65ee03f4)
 
 
 
