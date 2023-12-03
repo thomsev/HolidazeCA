@@ -1,0 +1,57 @@
+.contact-container {
+    padding: 2rem 0;
+  }
+  
+  .contact-container h2 {
+    margin-bottom: 2rem; 
+    color: #333; 
+    font-weight: bold; 
+  }
+  
+
+  .contact-container .form-group {
+    margin-bottom: 1rem; 
+  }
+  
+  .contact-container .form-group label {
+    display: block; 
+    margin-bottom: .5rem; 
+    color: #555; 
+    font-weight: bold; 
+  }
+  
+  .contact-container .form-control {
+    border: 1px solid #ccc; 
+    border-radius: .25rem; 
+    padding: .5rem; 
+    font-size: 1rem; 
+  }
+  
+  .contact-container .text-danger {
+    color: #dc3545; 
+    font-size: .875rem; 
+    margin-top: .25rem; 
+  }
+  
+  .contact-container .btn-primary {
+    color: #fff; 
+    background-color: #007bff; 
+    border-color: #007bff; 
+    padding: .75rem 1.5rem; 
+    font-size: 1rem; 
+    border-radius: .25rem; 
+    transition: background-color .2s, border-color .2s; 
+  }
+  
+  .contact-container .btn-primary:hover,
+  .contact-container .btn-primary:focus {
+    background-color: #0056b3; 
+    border-color: #004085; 
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      padding: 1rem;
+    }
+  }
+  

@@ -1,0 +1,43 @@
+
+.about-page-hero-row {
+    justify-content: center; 
+  }
+
+.about-page-container {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .about-page-hero-image {
+    max-width: 90%; 
+    height: auto; 
+    display: block; 
+    margin: 2rem auto; 
+  }
+  
+  
+  .about-page h2, 
+  .about-page h3 {
+    color: #0056b3; 
+    margin: 2rem 0; 
+  }
+  
+
+  .about-page p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333; 
+    margin-bottom: 1rem; 
+  }
+  
+  @media (max-width: 768px) {
+    .about-page h2, 
+    .about-page h3 {
+      font-size: 1.5rem; /* Adjust heading size on small screens */
+    }
+  
+  }
+  

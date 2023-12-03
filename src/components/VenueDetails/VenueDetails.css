@@ -1,0 +1,52 @@
+.venue-details-container {
+    max-width: 960px; 
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f8f9fa; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .venue-details-title {
+    font-size: 2rem; 
+    margin-bottom: 1rem;
+    color: #007bff; 
+    text-align: center; 
+  }
+  
+  .venue-details-image {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+    margin-bottom: 1rem; 
+  }
+  
+  .venue-details-description {
+    font-size: 1rem; 
+    color: #212529; 
+    margin-bottom: 1rem; 
+    text-align: justify; 
+    line-height: 1.5; 
+  }
+  
+  .venue-details-section {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #ffffff; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); 
+  }
+  
+  .venue-details-section h2 {
+    font-size: 1.5rem; 
+    color: #495057; 
+    margin-bottom: 0.5rem; 
+  }
+  
+  .venue-details-section p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+
+  

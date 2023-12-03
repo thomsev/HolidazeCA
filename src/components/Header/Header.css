@@ -1,0 +1,41 @@
+.header {
+    background: linear-gradient(45deg, #0062cc, #0096c7); 
+    border-bottom: 3px solid #00c7b7; 
+  }
+  
+  .header-title {
+    font-size: 2.5rem; 
+    font-weight: 700; 
+    letter-spacing: -1px; 
+    margin-left: 1rem; 
+  }
+  
+  .header-contact-info {
+    text-align: right; 
+    margin-right: 1rem; 
+  }
+  
+  .header-phone,
+  .header-email {
+    display: block; 
+    margin-bottom: 0.25rem; 
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+  
+    .header-title {
+      margin-bottom: 0.5rem; 
+    }
+  
+    .header-contact-info {
+      align-self: stretch; 
+      text-align: left; 
+      margin-right: 0; 
+      padding-left: 1rem; 
+    }
+  }
+  
